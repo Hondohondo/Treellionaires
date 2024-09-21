@@ -1,11 +1,15 @@
 <?php
 
+include 'db.php';
 if(isset($_GET['q'])) {
     $search = $_GET['q'];
 
-    include 'db.php';
-
     $query = "SELECT * FROM grant_opportunities WHERE opportunity_title LIKE '%{$search}%'";
+
+} else {
+        // If no search query is provided, return all grant opportunities
+        $query = "SELECT * FROM grant_opportunities";
+}
 
     $result = mysqli_query($con, $query);
 
@@ -23,7 +27,7 @@ if(isset($_GET['q'])) {
         $id = $row['opportunity_id'];
         $title = $row['opportunity_title'];
         $url = $row['opportunity_url'];
-        $description = $row['opportunity_description'];
+        $description = $row['short_description'];
         $division = $row['division'];
         $status = $row['status'];
         $posted_date = $row['posted_date'];
@@ -58,4 +62,4 @@ if(isset($_GET['q'])) {
     echo json_encode($grants);
 
     exit;*/
-}
+

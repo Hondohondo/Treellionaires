@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="116dcc7a-399d-4b4a-835c-8e8ed96b21b7" name="hackathon" url="http://treellionaire.darasareports.com">
+        <fileTransfer rootFolder="/www/treellionaire" host="treellionaire.darasareports.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

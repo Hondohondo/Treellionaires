@@ -1,5 +1,9 @@
 <?php
 // List all data from the database
+
+// Turn off all error reporting.
+error_reporting(0);
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -19,17 +23,16 @@
     <h1 class="heading-one">🌲 Treellionaires</h1>
 </header>
 
+<h2 class="heading-two">
+    Tree Planting Grants! Apply Today
+</h2>
+
 
 <div class="search-box">
     <form action="" method="post">
         <input type="search" id="search-grants" placeholder="Search for Tree Planting Grant Opportunities" class="search-input" autocomplete="off">
     </form>
 </div>
-
-<div id="suggestions">
-
-</div>
-
 
 
     <table>

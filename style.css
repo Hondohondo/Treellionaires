@@ -21,13 +21,20 @@ body {
 
 header {
     text-align: center;
-    padding: 40px;
+    padding: 30px;
     background: #087f5b;
     color: white;
 }
 
 .heading-one {
     font-size: 44px;
+}
+
+.heading-two {
+    margin-top: 16px;
+    font-size: 32px;
+    color: #087f5b;
+    text-align: center;
 }
 
 
@@ -80,7 +87,7 @@ tbody tr td a:visited {
     background: white;
     padding: 12px 24px;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 
