@@ -21,6 +21,11 @@ error_reporting(0);
 include 'header.php';
 ?>
 
+<div class="tableau-div">
+    <a href="tableau.html" class="tableau">Tableau Data</a>
+</div>
+
+
 <div class="search-box">
     <form action="" method="post">
         <input type="search" id="search-grants" placeholder="Search for Tree Planting Grant Opportunities" class="search-input" autocomplete="off">

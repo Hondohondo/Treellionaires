@@ -45,7 +45,7 @@ if(isset($_GET['q'])) {
 
         echo "
             <tr>
-                <td><a href='$url'>$title</a></td>
+                 <td><a href='view-listing.php?grant-id=$id' target='_blank'>$title</a></td>
              
                 <td>$division</td>
                 <td>$status</td>

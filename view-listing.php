@@ -35,7 +35,7 @@ include 'header.php';
     $id = $row['opportunity_id'];
     $title = $row['opportunity_title'];
     $url = $row['opportunity_url'];
-    $description = $row['opportunity_description'];
+    $description = $row['short_description'];
     $division = $row['division'];
     $status = $row['status'];
     $posted_date = $row['posted_date'];
@@ -53,9 +53,11 @@ include 'header.php';
     echo "
               <div class='container view-container'>
                 <h3 class='heading-three'>$title</h3>
-                <p class='view-para'><strong>Description:</strong>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab beatae doloremque dolorum, 
-                illum in laudantium magni numquam? Adipisci aliquam consequatur expedita minus placeat quod reiciendis voluptatibus. Ex nulla veniam vitae?
+                <p class='view-para'><strong>Short Description:</strong>
+                    $description
+                </p>
+                <p class='view-para'><strong>Requirement:</strong>
+                Participants must be private landowners, community organizations, or local government entities in Florida with a minimum of 5 acres of land available for reforestation. Eligible lands must be degraded or underutilized forest areas that can benefit from reforestation. Applicants should demonstrate a commitment to long-term forest management and adhere to the program's guidelines for sustainable practices.
                 </p>
                 
                 <div class='view-details'>
@@ -82,7 +84,7 @@ include 'header.php';
            
                
                 <p class='view-para'><strong>Funding Amount:</strong>
-                    $funding_amount
+                    $$funding_amount
                </p>
                
                <p>

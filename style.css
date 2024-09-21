@@ -21,9 +21,11 @@ body {
 
 header {
     text-align: center;
-    padding: 30px;
-    background: #087f5b;
-    color: white;
+    padding: 25px;
+    /*background: #087f5b;*/
+    /*color: white;*/
+    /*border: 3px solid #087f5b;*/
+    background: white;
 }
 
 .heading-one {
@@ -119,6 +121,51 @@ tbody tr td a:visited {
 .view-para {
     /*width: 80%;*/
     margin-top: 20px;
+}
+
+.tableau-div {
+    text-align: right;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo:link,
+.logo:visited {
+    text-decoration: none;
+    width: 100%;
+}
+
+.header img {
+    width: 560px;
+}
+
+.tableau:link,
+.tableau:visited {
+    text-decoration: none;
+    font-size: 20px;
+    background: #087f5b;
+    color: white;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: none;
+
+    transition: all .2s ease;
+}
+
+.tableau:hover,
+.tableau:active {
+    background: #0ca678;
+}
+
+.tableau-container {
+    text-align: center;
+}
+
+.container-tableau {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
