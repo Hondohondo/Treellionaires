@@ -41,6 +41,8 @@ table {
 
     background: white;
     padding: 20px;
+
+    /*font-size: 18px;*/
 }
 
 thead tr th {
@@ -84,5 +86,11 @@ tbody tr td a:visited {
 
 .search-input::placeholder {
     font-family: inherit;
+}
+
+.search-input:focus-visible {
+    outline: none;
+    /*border-color: #087f5b;*/
+    /*border-width: 2px;*/
 }
 
