@@ -21,9 +21,13 @@
 
 
 <div class="search-box">
-    <form action="">
-        <input type="search" placeholder="Search for Tree Planting Grant Opportunities" class="search-input">
+    <form action="" method="post">
+        <input type="search" id="search-grants" placeholder="Search for Tree Planting Grant Opportunities" class="search-input" autocomplete="off">
     </form>
+</div>
+
+<div id="suggestions">
+
 </div>
 
 
@@ -49,7 +53,7 @@
             </tr>
         </thead>
 
-        <tbody>
+        <tbody id="grants-list">
 
 
 <?php
@@ -120,7 +124,7 @@
     </table>
 
 
-
+<script src="ajax.js"></script>
 </body>
 </html>
 
