@@ -101,3 +101,48 @@ tbody tr td a:visited {
     /*border-width: 2px;*/
 }
 
+
+.view-container {
+    border-top: 2px solid #087f5b;
+    font-size: 20px;
+    border-radius: 8px;
+    background: white;
+    padding: 40px;
+    margin-top: 20px;
+    max-width: 800px;
+}
+
+.heading-three {
+    font-size: 24px;
+}
+
+.view-para {
+    /*width: 80%;*/
+    margin-top: 20px;
+}
+
+button {
+    font-size: 20px;
+    background: #087f5b;
+    color: white;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: none;
+
+    transition: all .2s ease;
+}
+
+button:hover {
+    background: #0ca678;
+    cursor: pointer;
+}
+
+.view-details {
+    /*width: 80%;*/
+    /*flex-basis: 80%;*/
+    display: flex;
+    justify-content: space-between;
+    /*gap: 80px;*/
+    margin-top: 20px;
+}
+

@@ -17,16 +17,9 @@ error_reporting(0);
 </head>
 <body>
 
-
-
-<header class="header">
-    <h1 class="heading-one">🌲 Treellionaires</h1>
-</header>
-
-<h2 class="heading-two">
-    Tree Planting Grants! Apply Today
-</h2>
-
+<?php
+include 'header.php';
+?>
 
 <div class="search-box">
     <form action="" method="post">
@@ -88,7 +81,7 @@ error_reporting(0);
 
         echo "
             <tr>
-                <td><a href='$url'>$title</a></td>
+                <td><a href='view-listing.php?grant-id=$id' target='_blank'>$title</a></td>
              
                 <td>$division</td>
                 <td>$status</td>
