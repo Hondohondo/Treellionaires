@@ -8,30 +8,44 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Grants Listing</title>
 </head>
 <body>
 
 
 
+<header class="header">
+    <h1 class="heading-one">🌲 Treellionaires</h1>
+</header>
+
+
+<div class="search-box">
+    <form action="">
+        <input type="search" placeholder="Search for Tree Planting Grant Opportunities" class="search-input">
+    </form>
+</div>
+
+
+
     <table>
         <thead>
             <tr>
-                <td>Opportunity Title</td>
-                <td>Short Description</td>
-                <td>Division</td>
-                <td>Status</td>
-                <td>Requirements</td>
-                <td>Guidelines</td>
-                <td>Timeline</td>
-                <td>Funding Amount</td>
-                <td>Flag</td>
-                <td>Partner</td>
-                <td>City</td>
-                <td>State</td>
-                <td>Notes</td>
-                <td>Post Date</td>
-                <td>Close Date</td>
+                <th>Opportunity Title</th>
+
+                <th>Division</th>
+                <th>Status</th>
+<!--                <th>Requirements</th>-->
+<!--                <th>Guidelines</th>-->
+<!--                <th>Timeline</th>-->
+                <th>Funding Amount</th>
+<!--                <th>Flag</th>-->
+<!--                <th>Partner</th>-->
+<!--                <th>City</th>-->
+<!--                <th>State</th>-->
+<!--                <th>Notes</th>-->
+                <th>Post Date</th>
+                <th>Close Date</th>
             </tr>
         </thead>
 
@@ -68,22 +82,38 @@
         echo "
             <tr>
                 <td><a href='$url'>$title</a></td>
-                <td>$description</td>
+             
                 <td>$division</td>
                 <td>$status</td>
-                <td>$requirements</td>
-                <td>$guidelines</td>
-                <td>$timeline</td>
+              
                 <td>$funding_amount</td>
-                <td>$flag</td>
-                <td>$partner</td>
-                <td>$city</td>
-                <td>$state</td>
-                <td>$notes</td>
+            
                 <td>$posted_date</td>
                 <td>$close_date</td>
             </tr>
         ";
+
+
+
+//        echo "
+//            <tr>
+//                <td><a href='$url'>$title</a></td>
+//                <td>$description</td>
+//                <td>$division</td>
+//                <td>$status</td>
+//                <td>$requirements</td>
+//                <td>$guidelines</td>
+//                <td>$timeline</td>
+//                <td>$funding_amount</td>
+//                <td>$flag</td>
+//                <td>$partner</td>
+//                <td>$city</td>
+//                <td>$state</td>
+//                <td>$notes</td>
+//                <td>$posted_date</td>
+//                <td>$close_date</td>
+//            </tr>
+//        ";
     }
 ?>
         </tbody>
