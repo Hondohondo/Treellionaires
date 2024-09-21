@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>psde2.MDC.Zipcode_1</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>A polygon feature class of the Miami-Dade County Zip Code boundaries. These boundaries were aligned to the Miami-Dade County street centerline coverage and include both sides of the street with an offset of 30 feet from the street centerline.Updated: Annually The data was created using: Projected Coordinate System: WGS_1984_Web_Mercator_Auxiliary_SphereProjection: Mercator_Auxiliary_Sphere</abstract>
+            <purpose>A polygon feature class of the Miami-Dade County Zip Code boundaries.</purpose>
+        </descript>
+        <spdom>
+            <bounding>
+                <westbc>-80.669855</westbc>
+                <eastbc>-80.118143</eastbc>
+                <northbc>25.977461</northbc>
+                <southbc>25.284207</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Florida</themekey>
+                <themekey>Miami-Dade County</themekey>
+                <themekey>MDC</themekey>
+                <themekey>County Government</themekey>
+                <themekey>Local Government</themekey>
+                <themekey>WGS84</themekey>
+                <themekey>Boundaries</themekey>
+                <themekey>Zip Code</themekey>
+                <themekey/>
+                <themekey>USPS</themekey>
+                <themekey>United States Postal Service</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.7.1.11595</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>psde2.MDC.Zipcode_1</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PZIPCODEID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ZIP</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ZIPCODE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Coordinates defining the features.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GlobalID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STArea()</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STLength()</attrlabl>
+            </attr>
+        </detailed>
+        <detailed>
+            <enttyp>
+                <enttypl>MDC.ZipCodeIsPartOfAddressZones</enttypl>
+            </enttyp>
+        </detailed>
+        <detailed>
+            <enttyp>
+                <enttypl>MDC.ZipcodeIsPartOfRangeZones</enttypl>
+            </enttyp>
+        </detailed>
+        <overview>
+            <eaover>
+The following field is for the item found in the attribute table.
+The standard ArcInfo items are automatically documented by the AML.
+
+ITEM     WIDTH	DESCRIPTION
+====     =====	===========
+ZIP	     5, 5, I	5 digit zip code
+</eaover>
+            <eadetcit>Not Available</eadetcit>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distliab>See access and use constraints information.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Feature Class</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt/>
+                </digtopt>
+            </digform>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20230405</metd>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
