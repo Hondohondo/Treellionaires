@@ -5,3 +5,5 @@ Line 2
 Line 3
 
 Line 4 (after adding: git config --global credential.helper cache)
+
+Line 5..
